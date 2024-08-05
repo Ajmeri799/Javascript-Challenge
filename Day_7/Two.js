@@ -7,7 +7,6 @@ let book_object = {
     return `${this.title}, ${this.year}`;
   },
 };
-
 // Call the this method and log the result
 console.log(book_object.getThis());
 
