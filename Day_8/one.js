@@ -1,9 +1,10 @@
+//1:-
 let name = "Ajmeri";
 let age = 23;
 let str = `hello ,my name :  ${name}  and my age ${age}`;
 console.log(str);
 
-//
+//2:-
 let st2 = `hello ,chai our code.
 welcome,chai our code.   `;
 console.log(st2);
