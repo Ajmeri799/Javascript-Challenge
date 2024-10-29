@@ -2,6 +2,7 @@ const data = document.getElementById("head");
 data.innerHTML = "This is updated element of head";
 const bgColor = document.querySelector(".one");
 bgColor.style.backgroundColor = "red";
+
 const node = document.createElement("div");
 node.textContent = "append div element";
 node.className = "append";
