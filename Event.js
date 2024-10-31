@@ -3,6 +3,7 @@ const button = document.getElementById("button");
 button.addEventListener("click", function () {
   para.textContent = "hello on click";
 });
+
 //
 const img = document.getElementById("img");
 const button2 = document.getElementById("button2");
