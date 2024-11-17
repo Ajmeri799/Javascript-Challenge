@@ -4,9 +4,9 @@ const promises = new Promise(function (resolve, reject) {
     resolve();
   }, 2000);
 });
-// promises.then(function () {
-//   console.log("async");
-// });
+promises.then(function () {
+  console.log("async");
+});
 // //2:-
 // const promisTwo = new Promise(function (resolve, reject) {
 //   setTimeout(function () {
