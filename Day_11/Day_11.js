@@ -8,16 +8,16 @@ promises.then(function () {
   console.log("async");
 });
 // //2:-
-// const promisTwo = new Promise(function (resolve, reject) {
-//   setTimeout(function () {
-//     let error = true;
-//     if (!error) {
-//       resolve("that is promise resolve msg.");
-//     } else {
-//       reject("ERROR");
-//     }
-//   }, 2000);
-// })
+const promisTwo = new Promise(function (resolve, reject) {
+  setTimeout(function () {
+    let error = true;
+    if (!error) {
+      resolve("that is promise resolve msg.");
+    } else {
+      reject("ERROR");
+    }
+  }, 2000);
+})
 //   .then(function () {
 //     console.log("async");
 //   })
