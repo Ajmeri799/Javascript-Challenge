@@ -18,12 +18,12 @@ const promisTwo = new Promise(function (resolve, reject) {
     }
   }, 2000);
 })
-//   .then(function () {
-//     console.log("async");
-//   })
-//   .catch(function (error) {
-//     console.log(error);
-//   });
+  .then(function () {
+    console.log("async");
+  })
+  .catch(function (error) {
+    console.log(error);
+  });
 
 //3:-
 // function setData(data, delay) {
